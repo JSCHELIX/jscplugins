@@ -1,0 +1,42 @@
+	These are the fonts required for the UNIONHUD, I have not packed them into the plugin for optimization reasons, so you will have to put them into gamemodes\helix\gamemode\core\hooks\cl_hooks.lua
+  The hud will NOT work if you do not put these into cl_hooks.lua in your HELIX directory.
+  
+  surface.CreateFont("CHud", {
+        font = "Purista",
+        size = 74,
+        extended = true,
+        scanlines = 2,
+        blursize = 1.5,
+        shadow = true,
+        weight = 100
+    })
+
+    surface.CreateFont("CHud2", {
+        font = "Purista",
+        size = 32,
+        extended = true,
+        scanlines = 2,
+        blursize = 1.5,
+        shadow = true,
+        weight = 100
+    })
+
+    surface.CreateFont("CHud3", {
+        font = "Purista",
+        size = 40,
+        extended = true,
+        scanlines = 2,
+        blursize = 1,
+        shadow = true,
+        weight = 100
+    })
+
+    surface.CreateFont("CHud4", {
+        font = "Purista",
+        size = 38,
+        extended = true,
+        scanlines = 2,
+        blursize = 1,
+        shadow = true,
+        weight = 100
+    })
