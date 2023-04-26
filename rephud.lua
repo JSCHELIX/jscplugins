@@ -29,4 +29,4 @@ function PLUGIN:HUDPaint()
         draw.DrawText("+", "CHud4", 100, ScrH() - 100, Color(63, 167, 63, 180))
         draw.DrawText("+", "CHud4", 130, ScrH() - 130, Color(63, 167, 63, 180))
         draw.DrawText("+", "CHud4", 120, ScrH() - 70, Color(63, 167, 63, 180))
-    end
+end
